@@ -1,0 +1,52 @@
+@import "variables";
+@import "bases";
+@import "novedades";
+@import "ofertas";
+@import "sobrenosotros";
+@import "contacto";
+
+
+
+
+body {
+
+    background: $colorprimario;
+	color: $colortextos;
+	/*font-family: "New Amsterdam", sans-serif;*/
+	
+}
+
+header{
+    background-color: $colorsecundario;
+    font-family: "New Amsterdam", sans-serif;
+    color: $colorprimario;
+    text-align: center;
+        nav{
+            background-color:$colorterciario;
+        }
+    }
+
+.footdisc{
+    background: $colorprimario;
+	color: $colortextos;
+	
+    }
+
+h4{
+    background-color: $colorsecundario;
+    font-family: "New Amsterdam", sans-serif;
+    color: $colorprimario; 
+    text-align: center;
+}
+
+h6{
+    background-color: $colorterciario;
+    font-family: "New Amsterdam", sans-serif;
+    color: $colortextos; 
+    text-align: center;
+}
+
+.tapadisco{
+    display: flex;
+    margin: 0%;
+}

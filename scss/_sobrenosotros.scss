@@ -1,0 +1,13 @@
+.sobre{
+   gap: 20px;
+   margin: 20px;
+   
+}
+
+.textos{
+    @extend%texto
+}
+
+.pepomap{
+    @extend%pepomap
+}
